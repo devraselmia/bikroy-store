@@ -1,0 +1,30 @@
+
+:root {
+    --primary-color: #5830E0;
+    --secondary-color: #081828;
+    --font-nunito:'Nunito', sans-serif;
+    --font-roboto:'Roboto Condensed', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* assets */
+.text-nab {
+    color: var(--secondary-color);
+}
+p,span {
+    font-family:'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a {
+    font-family: 'Jost', sans-serif;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
